@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 var cors = require('cors');
 
 //port
-const port = process.env.PORT || 9000
+const port = process.env.PORT || 9000;
 
 app.listen(port,function(){
     console.log("Server started on port 9000");
